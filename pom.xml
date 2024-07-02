@@ -109,11 +109,11 @@
 
   <properties>
     <!-- Shared properties with plugins and version numbers across submodules-->
-    <asciidoctorj.version>2.5.10</asciidoctorj.version>
+    <asciidoctorj.version>2.5.13</asciidoctorj.version>
     <bootstrap.version>5.3.3</bootstrap.version>
     <cglib.version>3.3.0</cglib.version>
     <!-- do not update necessary for lesson -->
-    <checkstyle.version>3.3.1</checkstyle.version>
+    <checkstyle.version>3.4.0</checkstyle.version>
     <commons-collections.version>3.2.1</commons-collections.version>
     <commons-io.version>2.16.1</commons-io.version>
     <commons-lang3.version>3.12.0</commons-lang3.version>
@@ -122,9 +122,9 @@
     <jacoco.version>0.8.11</jacoco.version>
     <java.version>17</java.version>
     <jaxb.version>2.3.1</jaxb.version>
-    <jjwt.version>0.9.1</jjwt.version>
+    <jjwt.version>0.12.6</jjwt.version>
     <jose4j.version>0.9.6</jose4j.version>
-    <jquery.version>3.7.0</jquery.version>
+    <jquery.version>3.7.1</jquery.version>
     <jsoup.version>1.17.2</jsoup.version>
     <maven-compiler-plugin.version>3.8.0</maven-compiler-plugin.version>
     <maven-failsafe-plugin.version>2.22.0</maven-failsafe-plugin.version>
@@ -142,7 +142,7 @@
     <webdriver.version>5.8.0</webdriver.version>
     <webgoat.context>/</webgoat.context>
     <webgoat.sslenabled>false</webgoat.sslenabled>
-    <webjars-locator-core.version>0.53</webjars-locator-core.version>
+    <webjars-locator-core.version>0.59</webjars-locator-core.version>
     <webwolf.context>/</webwolf.context>
     <wiremock.version>2.27.2</wiremock.version>
     <xml-resolver.version>1.2</xml-resolver.version>
@@ -636,7 +636,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-enforcer-plugin</artifactId>
-        <version>3.3.0</version>
+        <version>3.5.0</version>
         <executions>
           <execution>
             <id>restrict-log4j-versions</id>
