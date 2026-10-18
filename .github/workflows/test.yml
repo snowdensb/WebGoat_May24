@@ -33,7 +33,7 @@ jobs:
                 uses: actions/setup-java@v4
                 with:
                     distribution: 'temurin'
-                    java-version: 17
+                    java-version: 17.0.20+101
                     architecture: x64
             #Uses an action to set up a cache using a certain key based on the hash of the dependencies
             -   name: Cache Maven packages
